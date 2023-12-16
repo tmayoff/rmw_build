@@ -5,5 +5,5 @@ repositories:
     version: humble
   rosidl_typesupport_opendds:
     type: git
-    url: https://github.com/oci-labs/rosidl_typesupport_opendds.git
-    version: 0.1.0
+    url: https://github.com/tmayoff/rosidl_typesupport_opendds
+    version: humble
