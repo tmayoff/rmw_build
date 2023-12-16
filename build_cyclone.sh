@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-. /opt/ros/foxy/setup.bash
+. /opt/ros/$ROS_DISTRO/setup.bash
 
 dpkg -l ros-foxy-cyclonedds &>/dev/null
 if [ $? == 1 ];then

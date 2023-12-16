@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 source /opt/OpenDDS/setenv.sh
-source /opt/ros/foxy/setup.bash
+source /opt/ros/$ROS_DISTRO/setup.bash
 source install/local_setup.bash
 printenv|grep DDS
 printenv|grep ROS

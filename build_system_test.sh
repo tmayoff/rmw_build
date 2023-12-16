@@ -21,7 +21,7 @@ case ${opt} in
 esac
 done
 
-. /opt/ros/foxy/setup.bash
+. /opt/ros/$ROS_DISTRO/setup.bash
 echo $use
 if [ $use == "opendds" ];then
     ./rmw_build/build_rmw.sh

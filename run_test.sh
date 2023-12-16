@@ -41,7 +41,7 @@ script=`realpath $0`
 script_path=`dirname $script`
 pushd $script_path &> /dev/null
 pushd .. &> /dev/null
-. /opt/ros/foxy/setup.bash
+. /opt/ros/$ROS_DISTRO/setup.bash
 . install/local_setup.bash
 
 eval RMW_IMPLEMENTATION="$alt_rmw ros2 run ${gdb_cmd} $run_test$executable_suffix"
