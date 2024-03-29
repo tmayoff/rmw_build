@@ -14,15 +14,15 @@ repositories:
   rcl_interfaces:
     type: git
     url: https://github.com/ros2/rcl_interfaces.git
-    version: 1.0.0
+    version: humble
   rmw_cyclonedds:
     type: git
     url: https://github.com/ros2/rmw_cyclonedds.git
-    version: 0.7.1
+    version: humble
   system_tests:
     type: git
     url: https://github.com/ros2/system_tests.git
-    version: 0.9.0
+    version: humble
   test_interface_files:
     type: git
     url: https://github.com/ros2/test_interface_files.git
