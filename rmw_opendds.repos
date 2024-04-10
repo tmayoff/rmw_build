@@ -1,9 +1,9 @@
 repositories:
   rmw_opendds:
     type: git
-    url: https://github.com/tmayoff/rmw_opendds.git
+    url: https://github.com/Guidebolt/rmw_opendds.git
     version: humble
   rosidl_typesupport_opendds:
     type: git
-    url: https://github.com/tmayoff/rosidl_typesupport_opendds
+    url: https://github.com/Guidebolt/rosidl_typesupport_opendds.git
     version: humble
